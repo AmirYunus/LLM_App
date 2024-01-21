@@ -2,10 +2,12 @@
 
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![Generic badge](https://img.shields.io/badge/Python-Passed:_3.10.13-Green.svg)](https://shields.io/)
-[![Generic badge](https://img.shields.io/badge/Win_OS-Untested:_Win_11_(22H2)-orange.svg)](https://shields.io/)
+[![Generic badge](https://img.shields.io/badge/Win_OS-Passed:_Win_11_(22H2)-Green.svg)](https://shields.io/)
 [![Generic badge](https://img.shields.io/badge/Mac_OS-Passed:_Sonoma_14.2_(M1)-Green.svg)](https://shields.io/)
 
-Welcome to the LLM App repository! This GitHub project serves as a template for students undertaking their capstone projects, incorporating a Large Language Model (LLM) with a Retrieval-Augmented Generation (RAG) model. Follow the instructions below to set up the development environment and run the LLM App.
+Welcome to the LLM App repository!
+
+This GitHub project serves as a template for students undertaking their capstone projects, incorporating a Large Language Model (LLM) with a Retrieval-Augmented Generation (RAG) model. Follow the instructions below to set up the development environment and run the LLM App.
 
 ## Setup Instructions
 
@@ -18,7 +20,7 @@ Welcome to the LLM App repository! This GitHub project serves as a template for 
    Open your terminal and create a virtual environment using the following command:
 
    ```bash
-   conda create --prefix=venv python=3.10 -y
+   conda create --prefix=venv python=3.10.13 -y
    ```
 
 3. **Activate the Environment:**
@@ -81,4 +83,6 @@ Welcome to the LLM App repository! This GitHub project serves as a template for 
    python app.py
    ```
 
-   Feel free to explore and customise this template for your capstone project. Happy coding!
+## License
+
+This project is licensed under the ANU Affero General Public License - see the LICENSE file for details.
