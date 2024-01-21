@@ -1,0 +1,17 @@
+# Ignore Python cache files
+__pycache__
+
+# Ignore virtual environment
+venv/
+
+# Ignore database files
+database/
+
+# Ignore document files
+documents/
+
+# Ignore model files
+models/
+
+# Ignore macOS system files
+.DS_Store
